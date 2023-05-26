@@ -19,7 +19,7 @@ while True:
         choice = input(": ").lower
         if choice == "y":
             True
-        elif choice == "n":
+        else:
             break
     
      # Create an if and elif function for SUBTRACTION
@@ -38,7 +38,7 @@ while True:
         choice = input(": ").lower
         if choice == "y":
             True
-        elif choice == "n":
+        else:
             break
 
      # Create an if and elif function for MULTIPLICATION
@@ -57,7 +57,7 @@ while True:
         choice = input(": ").lower
         if choice == "y":
             True
-        elif choice == "n":
+        else:
             break
 
     # Create an if and elif function for DIVISION
@@ -76,16 +76,16 @@ while True:
         choice = input(": ").lower
         if choice == "y":
             True
-        elif choice == "n":
+        else:
             break
     
     # Create an else function in case there is a mis-input
     else:
-        print("That number is not part of the choices... would you like to keep using the program?")
+        print("That number is not part of the choices... would you like to keep using the program? y/n")
         choice = input(": ").lower
         if choice == "y":
             True
-        elif choice == "n":
+        else:
             break
 
 print("Thank you! I hope this calculator served you well! :> ")
