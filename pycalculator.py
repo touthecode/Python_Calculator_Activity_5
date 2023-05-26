@@ -22,7 +22,7 @@ while True:
         elif choice == "n":
             break
     
-     # Create an if and elif function for ADDITION
+     # Create an if and elif function for SUBTRACTION
     if decision == "2":
         print("You have selected Subtraction mode! Prepare to input two numbers to be included.")
         try:
@@ -41,7 +41,7 @@ while True:
         elif choice == "n":
             break
 
-     # Create an if and elif function for ADDITION
+     # Create an if and elif function for MULTIPLICATION
     if decision == "3":
         print("You have selected Multiplication mode! Prepare to input two numbers to be multiplied.")
         try:
@@ -59,3 +59,14 @@ while True:
             True
         elif choice == "n":
             break
+
+    # Create an if and elif function for DIVISION
+    if decision == "4":
+        print("You have selected Division mode! Prepare to input two numbers to be divided.")
+        try:
+            num1 = input("Enter your 1st number: ")
+            num2 = input("Enter your 2nd number: ")
+            quotient = float(num1) * float(num2)
+            print("This is your output: ", quotient)
+        except ValueError:
+            print("An error has been detected. Proceeding to redo function.")
