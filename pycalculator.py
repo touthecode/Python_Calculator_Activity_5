@@ -13,3 +13,12 @@ while True:
             print("This is your output: ", sum)
         except ValueError:
             print("An error has been detected. Proceeding to redo function.")
+
+        # Create an option to repeat the program
+        print("Do you still wish to use this program: y/n?")
+        choice = input(": ").lower
+        if choice == "y":
+            True
+        elif choice == "n":
+            break
+   
