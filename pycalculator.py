@@ -78,3 +78,14 @@ while True:
             True
         elif choice == "n":
             break
+    
+    # Create an else function in case there is a mis-input
+    else:
+        print("That number is not part of the choices... would you like to keep using the program?")
+        choice = input(": ").lower
+        if choice == "y":
+            True
+        elif choice == "n":
+            break
+
+print("Thank you! I hope this calculator served you well! :> ")
