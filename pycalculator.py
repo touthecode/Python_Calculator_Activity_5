@@ -40,3 +40,14 @@ while True:
             True
         elif choice == "n":
             break
+
+     # Create an if and elif function for ADDITION
+    if decision == "3":
+        print("You have selected Multiplication mode! Prepare to input two numbers to be multiplied.")
+        try:
+            num1 = input("Enter your 1st number: ")
+            num2 = input("Enter your 2nd number: ")
+            product = float(num1) * float(num2)
+            print("This is your output: ", product)
+        except ValueError:
+            print("An error has been detected. Proceeding to redo function.")
